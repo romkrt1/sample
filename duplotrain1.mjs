@@ -7595,6 +7595,9 @@ var entry = {
     'en': {
       'gui.extension.duplotrain.description': 'Build and control your train.'
     },
+    'ru': {
+      'gui.extension.duplotrain.description': 'Управляй поездами Duplo'
+    },
     'ja': {
       'gui.extension.duplotrain.description': 'レゴ デュプロの機関車を動かそう。'
     },
@@ -13991,7 +13994,7 @@ var Scratch3DuploTrainBlocks = /*#__PURE__*/function () {
     value: function _setupTranslations() {
       setupTranslations(formatMessage, {
         'en': {
-          'duplotrain.motorPWM': 'запуск [DIRECTION] на [POWER] % мощности',
+          'duplotrain.motorPWM': 'run [DIRECTION] at [POWER] % power',
           'duplotrain.motorStop': 'stop',
           'duplotrain.playSound': 'play [SOUND] sound',
           'duplotrain.setHubLEDColor': 'set light color to [COLOR]',
@@ -14011,7 +14014,7 @@ var Scratch3DuploTrainBlocks = /*#__PURE__*/function () {
           'duplotrain.white': 'White'
         },
         'ru': {
-          'duplotrain.motorPWM': '',
+          'duplotrain.motorPWM': 'запуск [DIRECTION] на [POWER] % мощности',
           'duplotrain.motorStop': 'стоп',
           'duplotrain.playSound': 'играть [SOUND] звук',
           'duplotrain.setHubLEDColor': 'set light color to [COLOR]',
